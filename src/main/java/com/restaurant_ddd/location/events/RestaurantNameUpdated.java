@@ -5,7 +5,7 @@ import com.restaurant_ddd.location.values.RestaurantId;
 import com.restaurant_ddd.order.values.Name;
 
 public class RestaurantNameUpdated extends DomainEvent {
-    private final RestaurantId restaurantId;
+    private RestaurantId restaurantId;
     private Name name;
 
     public RestaurantNameUpdated(RestaurantId entityId, Name name) {
