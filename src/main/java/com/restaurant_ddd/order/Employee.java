@@ -8,7 +8,6 @@ import com.restaurant_ddd.order.values.Name;
 import java.util.Objects;
 
 public class Employee extends Entity<EmployeeId> {
-
     private Name name;
     private Email email;
 
